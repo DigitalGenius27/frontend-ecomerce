@@ -1,0 +1,140 @@
+body {
+    background-color: #FFF;
+    padding: 50px;
+    padding-top: 20px;
+}
+
+.contenedor-botones-izquierda{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boton-barra-izquierda-1,
+.boton-barra-izquierda-2{
+    border: none;
+    border-radius: 15px;
+    color: #FFF;
+    background-color: #a477b9;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.boton-barra-izquierda-1{
+    margin-top: 20px;
+}
+
+.boton-barra-izquierda-2{
+    border: 1px solid #a477b9;
+    background-color: #fff;
+    margin-top: 10px;
+    color: #a477b9;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.label-input-1,
+.label-input-2{
+    margin-top: 10px;    
+}
+
+.input{
+    display: none;
+}
+
+.custom-checkbox {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 3px solid gray;
+    border-radius: 4px;
+    margin-right: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .checkbox-icon{
+    display:none;
+  }
+
+  .input:checked + .custom-checkbox {
+    background: #a57ab9;
+    color: #FFF;
+    border: 3px solid #a57ab9;
+  }
+
+.input:checked + .custom-checkbox .checkbox-icon{
+    display: block;
+    color: #fff;
+}
+  
+.tarjeta-producto{
+    display: grid;
+    grid-template-columns: repeat(6 , 80px);
+    justify-content: space-between;
+    width: 1100px;
+    margin-left: 27px;
+}
+
+.foto-articulo{
+    width: 170px;
+    height: 170px;
+    border-radius: 10%;
+}
+
+.container-product-card{
+    border: none;
+    border-radius: 17px;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    width: 170px;
+}
+
+.info-producto-container{
+    height: 113px;
+}
+
+.precio-producto{
+    font-size: 18px;
+    color: #8662A0;
+    height: 5px;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.nombre-producto{
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: -3px;
+}
+
+.button-producto{
+    width: 170px;
+    height: 25px;
+    border-radius: 25px;
+    bottom: -2px;
+    border: none;
+    background-color: #8C62A0;
+    color: #fff;
+    font-size: 15px;
+}
+
+.button-producto:hover{
+    background-color: #fff;
+    color: #8C62A0;
+    border: 1px solid #8C62A0;
+}
+
+.corazon-favorito-producto{
+    color: #a57ab9;
+}
+
+.corazon-favorito-producto:hover{
+    color: #fff;
+}

@@ -1,0 +1,15 @@
+.favorito-detalles-activado {
+  color: #8C62A0;
+}
+
+.favorito-detalles-activado:hover{
+    color: #fff;
+}
+
+.favorito-detalles-desactivado{
+    color: #3b3b3b;
+}
+
+.favorito-detalles-desactivado:hover{
+    color: #8C62A0;
+}

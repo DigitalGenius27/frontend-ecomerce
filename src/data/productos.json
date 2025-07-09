@@ -1,0 +1,35 @@
+[
+    { "id": 1, "nombre": "Producto 1", "precio": 100, "descripcion": "Descripción del producto 1", "imagen": "/fotos articulos/Articulo 1.jpg", "clase": "foto-articulo", "categoria":"Ropa", "favorito":true },
+    { "id": 2, "nombre": "Producto 2", "precio": 200, "descripcion": "Descripción del producto 2", "imagen": "/fotos articulos/Articulo 2.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 3, "nombre": "Producto 3", "precio": 200, "descripcion": "Descripción del producto 3", "imagen": "/fotos articulos/Articulo 3.jpg", "clase": "foto-articulo", "categoria":"", "favorito":true },
+    { "id": 4, "nombre": "Producto 4", "precio": 200, "descripcion": "Descripción del producto 4", "imagen": "/fotos articulos/Articulo 4.jpg", "clase": "foto-articulo", "categoria":"Ropa", "favorito":false },
+    { "id": 5, "nombre": "Producto 5", "precio": 200, "descripcion": "Descripción del producto 5", "imagen": "/fotos articulos/Articulo 5.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 6, "nombre": "Producto 6", "precio": 200, "descripcion": "Descripción del producto 6", "imagen": "/fotos articulos/Articulo 6.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 7, "nombre": "Producto 7", "precio": 200, "descripcion": "Descripción del producto 7", "imagen": "/fotos articulos/Articulo 7.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 8, "nombre": "Producto 8", "precio": 200, "descripcion": "Descripción del producto 8", "imagen": "/fotos articulos/Articulo 8.jpg", "clase": "foto-articulo", "categoria":"Ropa", "favorito":false },
+    { "id": 9, "nombre": "Producto 9", "precio": 200, "descripcion": "Descripción del producto 9", "imagen": "/fotos articulos/Articulo 9.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 10, "nombre": "Producto 10", "precio": 200, "descripcion": "Descripción del producto 10", "imagen": "/fotos articulos/Articulo 10.jpg", "clase": "foto-articulo", "categoria":"", "favorito":true },
+    { "id": 11, "nombre": "Producto 11", "precio": 200, "descripcion": "Descripción del producto 11", "imagen": "/fotos articulos/Articulo 11.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 12, "nombre": "Producto 12", "precio": 200, "descripcion": "Descripción del producto 12", "imagen": "/fotos articulos/Articulo 12.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 13, "nombre": "Producto 13", "precio": 200, "descripcion": "Descripción del producto 13", "imagen": "/fotos articulos/Articulo 13.jpg", "clase": "foto-articulo", "categoria":"", "favorito":true },
+    { "id": 14, "nombre": "Producto 14", "precio": 200, "descripcion": "Descripción del producto 14", "imagen": "/fotos articulos/Articulo 14.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 15, "nombre": "Producto 15", "precio": 200, "descripcion": "Descripción del producto 15", "imagen": "/fotos articulos/Articulo 15.jpg", "clase": "foto-articulo", "categoria":"Ropa", "favorito":false },
+    { "id": 16, "nombre": "Producto 16", "precio": 200, "descripcion": "Descripción del producto 16", "imagen": "/fotos articulos/Articulo 16.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 17, "nombre": "Producto 17", "precio": 200, "descripcion": "Descripción del producto 17", "imagen": "/fotos articulos/Articulo 17.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 18, "nombre": "Producto 18", "precio": 200, "descripcion": "Descripción del producto 18", "imagen": "/fotos articulos/Articulo 18.jpg", "clase": "foto-articulo", "categoria":"Ropa", "favorito":false },
+    { "id": 19, "nombre": "Producto 19", "precio": 200, "descripcion": "Descripción del producto 19", "imagen": "/fotos articulos/Articulo 19.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 20, "nombre": "Producto 20", "precio": 200, "descripcion": "Descripción del producto 20", "imagen": "/fotos articulos/Articulo 20.jpg", "clase": "foto-articulo", "categoria":"", "favorito":true },
+    { "id": 21, "nombre": "Producto 21", "precio": 200, "descripcion": "Descripción del producto 21", "imagen": "/fotos articulos/Articulo 21.jpg", "clase": "foto-articulo", "categoria":"", "favorito":true },
+    { "id": 22, "nombre": "Producto 22", "precio": 200, "descripcion": "Descripción del producto 22", "imagen": "/fotos articulos/Articulo 22.jpg", "clase": "foto-articulo", "categoria":"", "favorito":true },
+    { "id": 23, "nombre": "Producto 23", "precio": 200, "descripcion": "Descripción del producto 23", "imagen": "/fotos articulos/Articulo 23.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 24, "nombre": "Producto 24", "precio": 200, "descripcion": "Descripción del producto 24", "imagen": "/fotos articulos/Articulo 24.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 25, "nombre": "Producto 25", "precio": 200, "descripcion": "Descripción del producto 25", "imagen": "/fotos articulos/Articulo 25.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 26, "nombre": "Producto 26", "precio": 200, "descripcion": "Descripción del producto 26", "imagen": "/fotos articulos/Articulo 26.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 27, "nombre": "Producto 27", "precio": 200, "descripcion": "Descripción del producto 27", "imagen": "/fotos articulos/Articulo 27.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 28, "nombre": "Producto 28", "precio": 200, "descripcion": "Descripción del producto 28", "imagen": "/fotos articulos/Articulo 28.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 29, "nombre": "Producto 29", "precio": 200, "descripcion": "Descripción del producto 29", "imagen": "/fotos articulos/Articulo 29.jpg", "clase": "foto-articulo", "categoria":"", "favorito":false },
+    { "id": 30, "nombre": "Producto 30", "precio": 200, "descripcion": "Descripción del producto 30", "imagen": "/fotos articulos/Articulo 30.jpg", "clase": "foto-articulo", "categoria":"Ropa", "favorito":false }
+    
+    
+  ]
+  
