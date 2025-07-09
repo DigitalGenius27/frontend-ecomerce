@@ -20,7 +20,7 @@ export function CartProvider({ children }) {
   const [selectedCategory, setSelectedCatgory] = useState("Inicio");
 
   useEffect(() => {
-    fetch("http://localhost:5000/productos")
+    fetch("https://backend-ecomerce-vl7n.onrender.com/productos")
       .then(response => response.json())
       .then(data => setItems(data))
       .catch(error => console.error("❌ Error al obtener productos:", error));
@@ -54,7 +54,7 @@ export function CartProvider({ children }) {
   const deleteAll = async () => {
     try {
       for (const id of checked) {
-        const response = await fetch(`http://localhost:5000/productos/cart/${id}`, {
+        const response = await fetch(`https://backend-ecomerce-vl7n.onrender.com/productos/cart/${id}`, {
           method: "PUT",
           headers: { "Content-Type": "application/json" },
         });
@@ -81,7 +81,7 @@ export function CartProvider({ children }) {
 
   const toggleFavorito = async (id) => {
     try {
-      const response = await fetch(`http://localhost:5000/productos/favorito/${id}`, {
+      const response = await fetch(`https://backend-ecomerce-vl7n.onrender.com/productos/favorito/${id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
       });
@@ -98,7 +98,7 @@ export function CartProvider({ children }) {
 
   const toggleCart = async (id) => {
     try {
-      const response = await fetch(`http://localhost:5000/productos/cart/${id}`, {
+      const response = await fetch(`https://backend-ecomerce-vl7n.onrender.com/productos/cart/${id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
       });
