@@ -10,7 +10,7 @@ function Home() {
   const [items, setItems] = useState([]);
   
       useEffect(() => {
-          fetch("http://localhost:5000/productos")
+          fetch("https://backend-ecomerce-vl7n.onrender.com/productos")
               .then(response => response.json())
               .then(data => {
                   console.log("🛒 Productos recibidos en React:", data);  // Ver en consola del navegador
@@ -21,7 +21,7 @@ function Home() {
   
       const toggleFavorito = async (id) => {
           try {
-              const response = await fetch(`http://localhost:5000/productos/favorito/${id}`, {
+              const response = await fetch(`https://backend-ecomerce-vl7n.onrender.com/productos/favorito/${id}`, {
                   method: "PUT",
                   headers: { "Content-Type": "application/json" },
               });
@@ -77,7 +77,7 @@ function Home() {
 
   const toggleCart = async (id) => {
     try {
-      const response = await fetch(`http://localhost:5000/productos/cart/${id}`, {
+      const response = await fetch(`https://backend-ecomerce-vl7n.onrender.com/productos/cart/${id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
       });
