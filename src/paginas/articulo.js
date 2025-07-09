@@ -27,7 +27,7 @@ export default function Detalles() {
     const [ review, setReview ] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:5000/reviews")
+        fetch("https://backend-ecomerce-vl7n.onrender.comhttp://localhost:5000/reviews")
             .then(response => response.json())
             .then(data => {
                 console.log("📝 Reseñas recibidas en React:", data);  // Ver en consola del navegador
